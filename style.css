@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+/* font-family: 'Jost', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+
+}
+
+.main-container .wrapper {
+    background-color: #ffffff;
+    height: 80vh;
+    width: 60vw;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    border: none;
+}
+
+.main-container .wrapper .login-text {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: transparent;
+    display: grid;
+    place-items: center;
+    margin-top: 35px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #fb7e36;
+}
+
+.main-container .wrapper .inputs{
+    display: grid;
+    place-items: center;
+    margin-top: 45px;
+}
+
+.main-container .wrapper .inputs input {
+    font-size: 19px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    padding: 8px;
+    outline: none;
+    margin: 10px 0 ;
+    width: 85%;
+    border: none;
+    border-bottom: 2px solid #fb7e36;
+    transition: all .3s ease-in-out;
+}
+
+.main-container .wrapper .inputs input:hover{
+    border-bottom: 2px solid #ffa378;
+}
+
+.main-container .wrapper .btns{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.main-container .wrapper .btns button{
+    width: 85%;
+    padding: 8px;
+    margin: 10px 0;
+    color: #ffffff;
+    background-color: #fb7e36;
+    border: none;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: all .3s ease-in-out;
+
+}
+
+.main-container .wrapper .btns button:hover{
+    cursor: pointer;
+    color: #fb7e36;
+    background: transparent;
+    border: 2px solid #fb7e36;
+}
+
+hr{
+    border: 1px solid #ffa378;
+    margin-top: 15px;
+}
+
+.main-container .wrapper .more .more-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .wrapper .more h3{
+    color: #fb7e36;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+}
+
+.main-container .wrapper .more img{
+    width: 25px;
+}
+
+.main-container .wrapper .more .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.main-container .wrapper .more{
+    width: 85%;
+    margin: auto;
+}
